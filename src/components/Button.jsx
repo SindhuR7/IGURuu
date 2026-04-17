@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const Button = ({styling, title,  type, onClick}) => {
+const Button = ({styling, title, onClick}) => {
   return (
     <Link to={onClick}>
-          <button className={`${styling}`} type={type}  >
+          <button className={`${styling}`} >
         {title}
     </button>
     </Link>
